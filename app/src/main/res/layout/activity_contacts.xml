@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#EFF6FC">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#347FA8"
+        android:text="Înapoi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persoane de contact"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etSearchContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caută o persoană..."
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:padding="12dp"
+        android:singleLine="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/llContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DCEAF5"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Adaugă persoană"
+        android:backgroundTint="#347FA8"
+        android:textSize="16sp" />
+
+</LinearLayout>
