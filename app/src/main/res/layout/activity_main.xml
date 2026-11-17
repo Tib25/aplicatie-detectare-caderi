@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="#F4F7FA"
+    android:background="#EFF6FC"
     android:padding="24dp">
 
     <TextView
@@ -15,7 +15,7 @@
         android:text="SafeStep"
         android:textSize="48sp"
         android:textStyle="bold"
-        android:textColor="#183B56"
+        android:textColor="#183B5B"
         android:layout_marginTop="95dp"/>
 
     <TextView
@@ -36,10 +36,10 @@
         android:layout_width="320dp"
         android:layout_height="85dp"
         android:layout_gravity="center"
-        android:text="Persoană de contact"
+        android:text="Persoane de contact"
         android:textSize="23sp"
         android:textAllCaps="false"
-        android:backgroundTint="#347B83"
+        android:backgroundTint="#347FA8"
         android:layout_marginBottom="28dp"/>
 
     <Button
@@ -50,7 +50,7 @@
         android:text="Setări"
         android:textSize="23sp"
         android:textAllCaps="false"
-        android:backgroundTint="#347B83"/>
+        android:backgroundTint="#347FA8"/>
 
     <Space
         android:layout_width="match_parent"
